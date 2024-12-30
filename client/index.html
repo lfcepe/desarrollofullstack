@@ -8,9 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="nombre" placeholder="Nombre de la Canción">
-    <input type="text" id="artista" placeholder="Artista de la Canción">
-    <input type="text" id="url" placeholder="URL de la Canción">
-    <button id="guardar">Guardar Canción</button>
+    <header><h1>BPSOUND</h1></header>
+    <main>
+        <section class="agregarcancion">
+            <h2>Agrega la cancion</h2>
+            <input type="text" id="nombre" placeholder="Nombre de la Canción">
+            <input type="text" id="artista" placeholder="Artista de la Canción">
+            <input type="text" id="url" placeholder="URL de la Canción">
+            <button id="guardar">Guardar Canción</button>
+        </section>
+
+        <section class="listacanciones">
+            <h2>Lista de Canciones</h2>
+            <div id="lista" class="list"></div>
+        </section>
+
+        <section class="cancionaleatoria">
+            <h2>Canción Aleatoria</h2>
+            <button id="botonrandom">Obtener Canción Aleatoria</button>
+            <div id="cancion" class="card"></div>
+        </section>
+    </main>
 </body>
 </html>
